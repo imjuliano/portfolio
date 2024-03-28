@@ -1,0 +1,135 @@
+:root {
+    --primary: #030712; 
+    --secondary: #111827; 
+    --tertiary: #CBCFD4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    font-family: "Montserrat", sans-serif;  
+    font-style: normal;    
+    color: white;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.brand h3 {
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--tertiary);
+    transition: font-weight 0.3s ease; /* Adicionando transição suave */
+}
+
+.menu a:hover {
+    font-weight: 600; /* Alterando a font-weight ao passar o mouse */
+}
+
+.special-button a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.special-button img {
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+}
+
+.about{
+    margin-top: 5%;
+}
+
+.about p{
+    color: var(--tertiary);
+}
+
+.about-image img {
+    width: 80%;
+    height: auto;
+}
+
+.about-text{
+    margin-top: -5%;
+}
+
+.availability-circle {
+    display: inline-block;
+    width: 7px; /* Define a largura do círculo */
+    height: 7px; /* Define a altura do círculo */
+    background-color: #00ff00; /* Define a cor do círculo (verde) */
+    border-radius: 50%; /* Torna o círculo circular */
+    margin-right: 2px; /* Adiciona um pequeno espaço entre o círculo e o texto */
+    margin-bottom: 2px;
+  }
+  
+  .icon-inline-wrapper {
+    display: inline-block;
+    vertical-align: middle; /* Alinha verticalmente o ícone e o texto */
+  }
+  
+  .icon-inline {
+    max-width: 1em; /* Define a largura máxima do ícone para ser proporcional ao tamanho do texto */
+    height: auto; /* Mantém a proporção do ícone */
+    margin-bottom: 6px;
+  }
+
+
+.formacao{
+    background-color: var(--secondary);
+    width: 100%;
+    height: 800px;
+    text-align: center; 
+}
+
+.formacao p{
+    color: var(--tertiary)
+}
+
+
+  .formacao img {
+    width: 40px; /* Define a largura do ícone */
+    height: auto; /* Mantém a proporção da altura do ícone */
+    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+  }
+
+  .formacao h1 {
+    color: white; /* Define a cor do texto como branco */
+    margin-top: 10px; /* Adiciona um espaço superior ao título */
+  }
+  
+  
