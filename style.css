@@ -71,7 +71,8 @@ body {
 }
 
 .about{
-    margin-top: 5%;
+    height: 100vh;
+    padding-top: 8%;
 }
 
 .about p{
@@ -161,11 +162,19 @@ body {
     justify-content: space-between;
 }
 
+.logo-container img,
+.logo-container-2 img {
+    cursor: pointer;
+}
+
+
 .logo-container img {
     max-width: 20%; /* Largura máxima dos logos */
     max-height: 100px; /* Altura máxima dos logos */
     width: auto;
     height: auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 
@@ -188,11 +197,27 @@ body {
     transform: scale(1.05); /* Aplica um pequeno zoom ao passar o mouse */
 }
 
+.logo-container img,
+.logo-container-2 img {
+    cursor: pointer;
+    filter: grayscale(100%); /* Todas as imagens em escala de cinza inicialmente */
+    transition: filter 0.3s ease; /* Transição suave */
+}
+
+.logo-container img:hover,
+.logo-container-2 img:hover {
+    filter: grayscale(0%); /* Remove a escala de cinza ao passar o mouse */
+    transform: scale(1.05); /* Aplica um pequeno zoom ao passar o mouse */
+}
+
+
+
 .portfolio{
     background-color: var(--secondary);
     width: 100%;
     height: auto;
-    text-align: center; 
+    text-align: center;
+    padding-bottom: 5%; 
 }
 
 .portfolio img {
@@ -203,5 +228,99 @@ body {
 
   .portfolio h1 {
     color: white; /* Define a cor do texto como branco */
+    padding-top: 10px;
+    padding-bottom: 3%;
+  }
+
+
+  .portfolio {
+    text-align: center;
+
+  }
+  .portfolio .box {
+    margin-bottom: 30px;
+  }
+  .portfolio .box img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  .portfolio .box .btn {
+    text-align: left;
+    position: relative;
+  }
+  .portfolio .box .btn img {
+    width: auto;
+    height: 1em;
+    vertical-align: middle;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 15px;
+  }
+
+  
+
+
+  #tecnologias{
+    border-radius: 0px;
+  }
+
+
+  .box h3,h4{
+    margin-top: 15px;
+  }
+
+
+  .contato{
+    width: 100%;
+    text-align: center; 
+    padding-bottom: 3%;
+}
+
+  .contato h1 {
+    color: white; /* Define a cor do texto como branco */
     margin-top: 10px; /* Adiciona um espaço superior ao título */
   }
+
+  .contato img {
+    width: 40px; /* Define a largura do ícone */
+    height: auto; /* Mantém a proporção da altura do ícone */
+    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+  }
+
+  .contato p{
+    color: var(--tertiary);
+  }
+
+
+#copy {
+    width: auto;
+    height: 1em;
+    vertical-align: middle;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 15px;
+    padding-left: 5px;
+  }
+
+
+.social-icons{
+    margin-top: -50px;
+}
+
+.social-icons img{
+    filter: grayscale(100%);
+    margin-left: 15px;
+    margin-bottom: 3%;
+  }
+
+.footer{
+    background-color: var(--secondary);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
