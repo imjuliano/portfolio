@@ -317,10 +317,27 @@ body {
     margin-bottom: 3%;
   }
 
+  .social-icons a img {
+    width: 40px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+    filter: brightness(0) invert(1);
+}
+
 .footer{
     background-color: var(--secondary);
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
+/* Define o posicionamento para dispositivos móveis */
+@media (max-width: 768px) {
+
+    body{
+        display: none;
+    }
+  }
+  
 
