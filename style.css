@@ -46,11 +46,11 @@ body {
 .menu a {
     text-decoration: none;
     color: var(--tertiary);
-    transition: font-weight 0.3s ease; /* Adicionando transição suave */
+    transition: font-weight 0.3s ease;
 }
 
 .menu a:hover {
-    font-weight: 600; /* Alterando a font-weight ao passar o mouse */
+    font-weight: 600; 
 }
 
 .special-button a {
@@ -90,22 +90,22 @@ body {
 
 .availability-circle {
     display: inline-block;
-    width: 7px; /* Define a largura do círculo */
-    height: 7px; /* Define a altura do círculo */
-    background-color: #00ff00; /* Define a cor do círculo (verde) */
-    border-radius: 50%; /* Torna o círculo circular */
-    margin-right: 2px; /* Adiciona um pequeno espaço entre o círculo e o texto */
+    width: 7px; 
+    height: 7px; 
+    background-color: #ff0000; 
+    border-radius: 50%; 
+    margin-right: 2px;
     margin-bottom: 2px;
   }
   
   .icon-inline-wrapper {
     display: inline-block;
-    vertical-align: middle; /* Alinha verticalmente o ícone e o texto */
+    vertical-align: middle; 
   }
   
   .icon-inline {
-    max-width: 1em; /* Define a largura máxima do ícone para ser proporcional ao tamanho do texto */
-    height: auto; /* Mantém a proporção do ícone */
+    max-width: 1em; 
+    height: auto; 
     margin-bottom: 6px;
   }
 
@@ -124,14 +124,14 @@ body {
 
 
   .formacao img {
-    width: 40px; /* Define a largura do ícone */
-    height: auto; /* Mantém a proporção da altura do ícone */
-    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+    width: 40px; 
+    height: auto;
+    margin-top: 5%; 
   }
 
   .formacao h1 {
-    color: white; /* Define a cor do texto como branco */
-    margin-top: 10px; /* Adiciona um espaço superior ao título */
+    color: white; 
+    margin-top: 10px; 
   }
   
   .habilidades{
@@ -142,14 +142,14 @@ body {
 
 
   .habilidades h1 {
-    color: white; /* Define a cor do texto como branco */
-    margin-top: 10px; /* Adiciona um espaço superior ao título */
+    color: white; 
+    margin-top: 10px; 
   }
 
   .habilidades img {
-    width: 40px; /* Define a largura do ícone */
-    height: auto; /* Mantém a proporção da altura do ícone */
-    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+    width: 40px; 
+    height: auto;
+    margin-top: 5%; 
   }
 
   .habilidades p{
@@ -169,8 +169,8 @@ body {
 
 
 .logo-container img {
-    max-width: 20%; /* Largura máxima dos logos */
-    max-height: 100px; /* Altura máxima dos logos */
+    max-width: 20%;
+    max-height: 100px; 
     width: auto;
     height: auto;
     padding-right: 30px;
@@ -184,30 +184,30 @@ body {
     width: auto;
     height: auto;
     margin: 30px;
-    transition: filter 0.3s ease; /* Transição suave */
+    transition: filter 0.3s ease; 
 
 }
 
 .logo-container img:hover {
-    transform: scale(1.05); /* Aplica um pequeno zoom ao passar o mouse */
+    transform: scale(1.05); 
 }
 
 
 .logo-container-2 img:hover {
-    transform: scale(1.05); /* Aplica um pequeno zoom ao passar o mouse */
+    transform: scale(1.05); 
 }
 
 .logo-container img,
 .logo-container-2 img {
     cursor: pointer;
-    filter: grayscale(100%); /* Todas as imagens em escala de cinza inicialmente */
-    transition: filter 0.3s ease; /* Transição suave */
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease; 
 }
 
 .logo-container img:hover,
 .logo-container-2 img:hover {
-    filter: grayscale(0%); /* Remove a escala de cinza ao passar o mouse */
-    transform: scale(1.05); /* Aplica um pequeno zoom ao passar o mouse */
+    filter: grayscale(0%);
+    transform: scale(1.05); 
 }
 
 
@@ -221,13 +221,13 @@ body {
 }
 
 .portfolio img {
-    width: 40px; /* Define a largura do ícone */
-    height: auto; /* Mantém a proporção da altura do ícone */
-    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+    width: 40px;
+    height: auto; 
+    margin-top: 5%; 
   }
 
   .portfolio h1 {
-    color: white; /* Define a cor do texto como branco */
+    color: white;
     padding-top: 10px;
     padding-bottom: 3%;
   }
@@ -280,14 +280,14 @@ body {
 }
 
   .contato h1 {
-    color: white; /* Define a cor do texto como branco */
-    margin-top: 10px; /* Adiciona um espaço superior ao título */
+    color: white;
+    margin-top: 10px;
   }
 
   .contato img {
-    width: 40px; /* Define a largura do ícone */
-    height: auto; /* Mantém a proporção da altura do ícone */
-    margin-top: 5%; /* Adiciona um espaço superior ao ícone */
+    width: 40px; 
+    height: auto;
+    margin-top: 5%; 
   }
 
   .contato p{
@@ -332,7 +332,6 @@ body {
     padding-bottom: 25px;
 }
 
-/* Define o posicionamento para dispositivos móveis */
 @media (max-width: 768px) {
 
     body{
